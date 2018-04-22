@@ -10,6 +10,7 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
+  //做点改变吧 给child
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
